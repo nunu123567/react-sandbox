@@ -1,5 +1,6 @@
 import { AppleBasket } from "./components/AppleBasket"
 import { AppleButton } from "./components/AppleButton"
+import { MovieList } from "./components/MovieList"
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
     <AppleButton/>
     <AppleBasket/>
+    <MovieList />
     </>
   )
 }
